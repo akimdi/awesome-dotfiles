@@ -1,0 +1,17 @@
+more samples dotfiles resources on UPSTREAM https://github.com/webpro/awesome-dotfiles
+
+
+Накатывание изменений с апстрима на мой форк на Github
+
+https://github.com/webpro/awesome-dotfiles
+
+git clone --verbose git@github.com:akimdi/awesome-dotfiles.git
+git status
+git remote -v
+git remote add upstream git@github.com:webpro/awesome-dotfiles.git
+git fetch upstream
+git checkout master
+git merge upstream/master
+git status
+git push origin master
+git status
